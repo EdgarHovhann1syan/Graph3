@@ -315,7 +315,7 @@ bool Graph::isCycledUndirected()
     }
     return false;
 }
-
+//
 bool Graph::is_cycled()
 {
     return this->m_is_directed ? isCycledDirected() : isCycledUndirected();
